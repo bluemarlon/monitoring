@@ -11,14 +11,10 @@ library(fdasrvf)
 library(lmerTest)
 library(ecp)
 
-# setwd("~/Downloads/consulting/highfreq/renjie-clustering/random length/data")
-# load("new-imputed-cng.Rdata")
+
 setwd("~/Downloads/apply/shiny/present")
 load("data.RData")
-# df<- df[order(df$UCONNSpace,df$Meter,df$Year, df$Month),]
-# setwd("~/Downloads/consulting/highfreq/renjie-clustering/random length/data")
-# # load("cng-normalized.Rdata")
-# load("cng.rdata")
+
 setwd("~/Downloads/apply/shiny/present")
 source("monitoring.R")
 
